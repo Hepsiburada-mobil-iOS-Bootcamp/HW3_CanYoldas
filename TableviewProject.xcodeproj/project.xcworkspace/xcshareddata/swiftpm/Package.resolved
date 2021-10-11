@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BaseComponents",
+        "repositoryURL": "https://github.com/canyoldas0/BaseComponents",
+        "state": {
+          "branch": null,
+          "revision": "1ef33aa0aa6ffacd6efb4caf0fd33e0aaf353069",
+          "version": "1.0.18"
+        }
+      },
+      {
+        "package": "DefaultNetworkOperationPackage",
+        "repositoryURL": "https://github.com/emircanaydin/DefaultNetworkOperationPackage",
+        "state": {
+          "branch": null,
+          "revision": "a824c7a0db81db824f8a2db9e80781b5b4a85d10",
+          "version": "1.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
