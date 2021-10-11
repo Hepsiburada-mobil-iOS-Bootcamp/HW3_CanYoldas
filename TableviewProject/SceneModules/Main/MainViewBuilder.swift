@@ -13,10 +13,14 @@ class MainViewBuilder {
         
         let viewModel = MainViewModel()
         let viewController = MainViewController(viewModel: viewModel)
+        let navigationController = UINavigationController(rootViewController: viewController)
+        
+        
         viewController.title = "Main"
         viewController.tabBarItem.image = TabBarImages.home.value
-        
-        return viewController
+        //to keep swiping, we dont use isHidden here
+        viewController.navigationController?.setNavigationBarHidden(true, animated: false)
+        return navigationController
         
     }
 }
