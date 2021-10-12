@@ -9,6 +9,7 @@ import UIKit
 import BaseComponents
 
 
+
 class ItemTableViewCell : BaseTableViewCell {
     
     private lazy var containerView : UIView = {
@@ -48,8 +49,8 @@ class ItemTableViewCell : BaseTableViewCell {
            return temp
        }()
        
-       override func addMajorView() {
-           super.addMajorView()
+       override func addMajorViews() {
+           super.addMajorViews()
            addUserComponents()
        }
        
@@ -79,11 +80,11 @@ class ItemTableViewCell : BaseTableViewCell {
            
        }
        
-       func setData(by value: GenericDataProtocol) {
-           guard let data = value as? ItemTableViewCellData else { return }
-           imageViewComponent.setData(by: data.imageData)
-           cellInfo.setData(by: data.cellInfo)
-       }
+    func setData(by value: GenericDataProtocol) {
+            guard let data = value as? ItemTableViewCellData else { return }
+            imageViewComponent.setData(by: data.imageData)
+            cellInfo.setData(by: data.cellInfo)
+        }
        
        private func getLabelPackComponentData() -> LabelPackComponentData {
            return LabelPackComponentData()

@@ -22,6 +22,7 @@ class ItemListView : BaseView {
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.delegate = self
         temp.dataSource = self
+        temp.register(ItemTableViewCell.self, forCellReuseIdentifier: ItemTableViewCell.identifier)
         
         return temp
     }()
@@ -35,7 +36,7 @@ class ItemListView : BaseView {
         addSubview(tableView)
         
         NSLayoutConstraint.activate([
-        
+            
             tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
             tableView.topAnchor.constraint(equalTo: topAnchor),
@@ -43,7 +44,7 @@ class ItemListView : BaseView {
         ])
     }
     
-
+    
     func reloadTableView() {
         tableView.reloadData()
     }
@@ -61,7 +62,7 @@ extension ItemListView : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return delegate?.askNumberOfItem(in: section) ?? 0
     }
-
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -69,12 +70,14 @@ extension ItemListView : UITableViewDelegate, UITableViewDataSource {
             fatalError("provide some data")
         }
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: ItemTableViewCell.identifier, for: <#T##IndexPath#>)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ItemTableViewCell.identifier, for: indexPath) as? ItemTableViewCell else { return UITableViewCell() }
+        
+        cell.setData(by: data)
+        
+        return cell
         
         
-        
-        return UITableViewCell()
     }
- 
+    
 }
 
