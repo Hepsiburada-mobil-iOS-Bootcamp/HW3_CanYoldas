@@ -25,6 +25,22 @@
 		1E122E3C27149F5D00BABB1E /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E3B27149F5D00BABB1E /* FavoriteViewModel.swift */; };
 		1E122E3E27149F8000BABB1E /* FavoriteViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E3D27149F8000BABB1E /* FavoriteViewBuilder.swift */; };
 		1E122E4027149FC900BABB1E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E3F27149FC900BABB1E /* FavoriteViewController.swift */; };
+		1E122E432714BA1000BABB1E /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E422714BA1000BABB1E /* CharacterListViewController.swift */; };
+		1E122E452714BA2A00BABB1E /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E442714BA2A00BABB1E /* CharacterListViewModel.swift */; };
+		1E122E472714BA4700BABB1E /* CharacterListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E462714BA4700BABB1E /* CharacterListViewBuilder.swift */; };
+		1E122E4B2714BD7100BABB1E /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E4A2714BD7100BABB1E /* ItemListView.swift */; };
+		1E122E4D2714CF0D00BABB1E /* ItemListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E4C2714CF0D00BABB1E /* ItemListProtocol.swift */; };
+		1E122E502714D61400BABB1E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E4F2714D61400BABB1E /* ItemTableViewCell.swift */; };
+		1E122E532715843A00BABB1E /* CustomImageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E522715843A00BABB1E /* CustomImageViewComponent.swift */; };
+		1E122E552715844F00BABB1E /* CustomImageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E542715844F00BABB1E /* CustomImageViewComponentData.swift */; };
+		1E122E572715849000BABB1E /* CustomImageLoadingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E562715849000BABB1E /* CustomImageLoadingType.swift */; };
+		1E122E59271584AA00BABB1E /* CustomImageViewComponentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E58271584AA00BABB1E /* CustomImageViewComponentContainer.swift */; };
+		1E122E5D271584F000BABB1E /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E5C271584F000BABB1E /* ImageCacheManager.swift */; };
+		1E122E63271585A100BABB1E /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E61271585A100BABB1E /* LabelPackComponent.swift */; };
+		1E122E64271585A100BABB1E /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E62271585A100BABB1E /* LabelPackComponentData.swift */; };
+		1E122E67271585BE00BABB1E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E66271585BE00BABB1E /* FontManager.swift */; };
+		1E122E692715872000BABB1E /* ItemTableViewCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E682715872000BABB1E /* ItemTableViewCellData.swift */; };
+		1E122E6B27158A1500BABB1E /* LabelDistributionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E122E6A27158A1500BABB1E /* LabelDistributionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +82,22 @@
 		1E122E3B27149F5D00BABB1E /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		1E122E3D27149F8000BABB1E /* FavoriteViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewBuilder.swift; sourceTree = "<group>"; };
 		1E122E3F27149FC900BABB1E /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		1E122E422714BA1000BABB1E /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
+		1E122E442714BA2A00BABB1E /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		1E122E462714BA4700BABB1E /* CharacterListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewBuilder.swift; sourceTree = "<group>"; };
+		1E122E4A2714BD7100BABB1E /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		1E122E4C2714CF0D00BABB1E /* ItemListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListProtocol.swift; sourceTree = "<group>"; };
+		1E122E4F2714D61400BABB1E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		1E122E522715843A00BABB1E /* CustomImageViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponent.swift; sourceTree = "<group>"; };
+		1E122E542715844F00BABB1E /* CustomImageViewComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentData.swift; sourceTree = "<group>"; };
+		1E122E562715849000BABB1E /* CustomImageLoadingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageLoadingType.swift; sourceTree = "<group>"; };
+		1E122E58271584AA00BABB1E /* CustomImageViewComponentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentContainer.swift; sourceTree = "<group>"; };
+		1E122E5C271584F000BABB1E /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		1E122E61271585A100BABB1E /* LabelPackComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		1E122E62271585A100BABB1E /* LabelPackComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
+		1E122E66271585BE00BABB1E /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		1E122E682715872000BABB1E /* ItemTableViewCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCellData.swift; sourceTree = "<group>"; };
+		1E122E6A27158A1500BABB1E /* LabelDistributionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDistributionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +149,8 @@
 		1E122DF22712025F00BABB1E /* TableviewProject */ = {
 			isa = PBXGroup;
 			children = (
+				1E122E5A271584D900BABB1E /* Managers */,
+				1E122E482714BD4000BABB1E /* Components */,
 				1E122E3627149E3100BABB1E /* Utilities */,
 				1E122E29271483F200BABB1E /* SceneModules */,
 				1E122DF32712025F00BABB1E /* AppDelegate.swift */,
@@ -149,6 +183,7 @@
 		1E122E29271483F200BABB1E /* SceneModules */ = {
 			isa = PBXGroup;
 			children = (
+				1E122E412714B9FF00BABB1E /* CharacterList */,
 				1E122E3A27149F4A00BABB1E /* Favorites */,
 				1E122E31271490AE00BABB1E /* MainTabBar */,
 				1E122E2A271483FF00BABB1E /* Main */,
@@ -178,6 +213,7 @@
 		1E122E3627149E3100BABB1E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1E122E65271585B500BABB1E /* FontManagers */,
 				1E122E3727149E4000BABB1E /* AssetHelper */,
 			);
 			path = Utilities;
@@ -199,6 +235,90 @@
 				1E122E3F27149FC900BABB1E /* FavoriteViewController.swift */,
 			);
 			path = Favorites;
+			sourceTree = "<group>";
+		};
+		1E122E412714B9FF00BABB1E /* CharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E422714BA1000BABB1E /* CharacterListViewController.swift */,
+				1E122E442714BA2A00BABB1E /* CharacterListViewModel.swift */,
+				1E122E462714BA4700BABB1E /* CharacterListViewBuilder.swift */,
+			);
+			path = CharacterList;
+			sourceTree = "<group>";
+		};
+		1E122E482714BD4000BABB1E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E602715859300BABB1E /* LabelPackComponent */,
+				1E122E512715842700BABB1E /* CustomImageViewComponents */,
+				1E122E4E2714D5EF00BABB1E /* ItemListTableViewComponents */,
+				1E122E492714BD4400BABB1E /* ItemListViewComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1E122E492714BD4400BABB1E /* ItemListViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E4A2714BD7100BABB1E /* ItemListView.swift */,
+				1E122E4C2714CF0D00BABB1E /* ItemListProtocol.swift */,
+			);
+			path = ItemListViewComponents;
+			sourceTree = "<group>";
+		};
+		1E122E4E2714D5EF00BABB1E /* ItemListTableViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E4F2714D61400BABB1E /* ItemTableViewCell.swift */,
+				1E122E682715872000BABB1E /* ItemTableViewCellData.swift */,
+			);
+			path = ItemListTableViewComponents;
+			sourceTree = "<group>";
+		};
+		1E122E512715842700BABB1E /* CustomImageViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E522715843A00BABB1E /* CustomImageViewComponent.swift */,
+				1E122E542715844F00BABB1E /* CustomImageViewComponentData.swift */,
+				1E122E562715849000BABB1E /* CustomImageLoadingType.swift */,
+				1E122E58271584AA00BABB1E /* CustomImageViewComponentContainer.swift */,
+			);
+			path = CustomImageViewComponents;
+			sourceTree = "<group>";
+		};
+		1E122E5A271584D900BABB1E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E5B271584DF00BABB1E /* CacheManagers */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1E122E5B271584DF00BABB1E /* CacheManagers */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E5C271584F000BABB1E /* ImageCacheManager.swift */,
+			);
+			path = CacheManagers;
+			sourceTree = "<group>";
+		};
+		1E122E602715859300BABB1E /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E61271585A100BABB1E /* LabelPackComponent.swift */,
+				1E122E62271585A100BABB1E /* LabelPackComponentData.swift */,
+				1E122E6A27158A1500BABB1E /* LabelDistributionData.swift */,
+			);
+			path = LabelPackComponent;
+			sourceTree = "<group>";
+		};
+		1E122E65271585B500BABB1E /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				1E122E66271585BE00BABB1E /* FontManager.swift */,
+			);
+			path = FontManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,15 +460,31 @@
 				1E122E3E27149F8000BABB1E /* FavoriteViewBuilder.swift in Sources */,
 				1E122E2E2714842E00BABB1E /* MainViewModel.swift in Sources */,
 				1E122DF82712025F00BABB1E /* TestViewController.swift in Sources */,
+				1E122E64271585A100BABB1E /* LabelPackComponentData.swift in Sources */,
+				1E122E6B27158A1500BABB1E /* LabelDistributionData.swift in Sources */,
+				1E122E4B2714BD7100BABB1E /* ItemListView.swift in Sources */,
 				1E122E352714913600BABB1E /* MainTabBarBuilder.swift in Sources */,
 				1E122DF42712025F00BABB1E /* AppDelegate.swift in Sources */,
 				1E122E3927149E5200BABB1E /* TabBarImages.swift in Sources */,
 				1E122E33271490C200BABB1E /* MainTabBarController.swift in Sources */,
 				1E122DF62712025F00BABB1E /* SceneDelegate.swift in Sources */,
+				1E122E67271585BE00BABB1E /* FontManager.swift in Sources */,
+				1E122E532715843A00BABB1E /* CustomImageViewComponent.swift in Sources */,
 				1E122E2C2714840D00BABB1E /* MainViewController.swift in Sources */,
+				1E122E502714D61400BABB1E /* ItemTableViewCell.swift in Sources */,
+				1E122E432714BA1000BABB1E /* CharacterListViewController.swift in Sources */,
+				1E122E452714BA2A00BABB1E /* CharacterListViewModel.swift in Sources */,
+				1E122E472714BA4700BABB1E /* CharacterListViewBuilder.swift in Sources */,
+				1E122E552715844F00BABB1E /* CustomImageViewComponentData.swift in Sources */,
+				1E122E572715849000BABB1E /* CustomImageLoadingType.swift in Sources */,
+				1E122E59271584AA00BABB1E /* CustomImageViewComponentContainer.swift in Sources */,
 				1E122E3C27149F5D00BABB1E /* FavoriteViewModel.swift in Sources */,
+				1E122E4D2714CF0D00BABB1E /* ItemListProtocol.swift in Sources */,
+				1E122E692715872000BABB1E /* ItemTableViewCellData.swift in Sources */,
 				1E122E4027149FC900BABB1E /* FavoriteViewController.swift in Sources */,
+				1E122E63271585A100BABB1E /* LabelPackComponent.swift in Sources */,
 				1E122E302714844700BABB1E /* MainViewBuilder.swift in Sources */,
+				1E122E5D271584F000BABB1E /* ImageCacheManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
