@@ -19,7 +19,7 @@ class MainViewBuilder {
         viewController.title = "Main"
         viewController.tabBarItem.image = TabBarImages.home.value
         //to keep swiping, we dont use isHidden here
-        viewController.navigationController?.setNavigationBarHidden(true, animated: false)
+        viewController.navigationController?.setNavigationBarHidden(false, animated: false)
 
         return navigationController
         

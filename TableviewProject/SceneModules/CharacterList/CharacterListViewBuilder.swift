@@ -17,6 +17,7 @@ class CharacterListViewBuilder {
         let viewController = CharacterListViewController(viewModel: viewModel)
         
         
+        
         return viewController
     }
 }

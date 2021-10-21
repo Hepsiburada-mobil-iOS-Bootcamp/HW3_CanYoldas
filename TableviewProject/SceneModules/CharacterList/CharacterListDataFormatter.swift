@@ -15,7 +15,7 @@ class CharacterListDataFormatter: CharacterListDataFormatterProtocol {
     
     private func getDescription(from rawValue: String?) -> String {
         guard let value = rawValue, !value.isEmpty else {
-            return "UnKnown"
+            return "unknown"
         }
         return value
 

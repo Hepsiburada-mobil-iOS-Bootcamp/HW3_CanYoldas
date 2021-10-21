@@ -11,6 +11,10 @@ import DefaultNetworkOperationPackage
 
 class CharacterListViewModel {
     
+    deinit {
+        print("characterlİstViewmodel deinit")
+    }
+    
     private let formatter: CharacterListDataFormatterProtocol
     private var state: CharacterListStateBlock?
     private var data: CharacterDataResponse?
@@ -69,11 +73,14 @@ extension CharacterListViewModel: ItemListProtocol {
     }
     
     func askNumberOfItem(in section: Int) -> Int {
-        return 0
+        guard let dataUnwrapped = data else { return 0 }
+                return dataUnwrapped.data.results.count
     }
     
     func askData(at index: Int) -> GenericDataProtocol? {
-        return nil
+        guard let dataUnwrapped = data else { return nil }
+        
+        return formatter.getItem(from: dataUnwrapped.data.results[index])
     }
     
     
